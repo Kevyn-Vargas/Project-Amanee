@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+
+.title-web {
+  width: 30%;
+  padding: 0 6%;
+  font-size: 2rem;
+}
+
+.nav-bar {
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+.nav-bar-point {
+  list-style: none;
+  display: inline-block;
+  padding: 3px 20px;
+}
+
+.nav-bar-point a {
+  text-decoration: none;
+}
+.main-img-product {
+  width: 250px;
+  margin: 90px 160px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.main-info {
+  margin: 30px 45px;
+}
+
+.main-info h1 {
+  font-size: 2.5rem;
+}
+
+.main-info h2 {
+  font-size: 2rem;
+}
+
+.main-description {
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-section-img {
+  width: 250px;
+  margin: 10px 50px;
+}
+
+.about-section--info {
+  width: 340px;
+}
+
+.about-section--info h2 {
+  font-size: 2.5rem;
+}
+
+.about-section--info b {
+  font-size: 1.3rem;
+}
+
+.about-section--info p {
+  font-size: 1.2rem;
+}
+
+.section-benefits {
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+
+.section-benefits--cards {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b395d4;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.section-benefits--cards img {
+  width: 55px;
+}
+
+.section-benefits--cards b {
+  font-size: 1.2rem;
+}
+
+.section-benefits--cards p {
+  width: 150px;
+  font-size: 1.1rem;
+}
+
+.grid-padre {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.grid-item li {
+  list-style: none;
+}
+
+.grid-item li::before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url(./img/checkmark_icon_128476.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 0.5em -0.25em -1em;
+}
+
+.details-product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
